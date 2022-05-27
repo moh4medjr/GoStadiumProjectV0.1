@@ -64,7 +64,7 @@ INSERT INTO `SIDE` (`SideId`, `SideName`, `Price`, `MaxSeats`, `MinSeats`) VALUE
 
 INSERT INTO `GAME` (`GameId`,`GameDate`,`GameHour`,`TeamName`,`Competition`) VALUES
 (1111,'2022-06-12','21:00:00','Barcelona','LaLiga'),
-(2222,'2022-05-19','20:00:00','Madrid','ChampionsLeague');
+(2222,'2022-06-19','20:00:00','Madrid','ChampionsLeague');
 
 ALTER TABLE BOOKING
 ADD CONSTRAINT FK_Bookin2 FOREIGN KEY (FanId)
